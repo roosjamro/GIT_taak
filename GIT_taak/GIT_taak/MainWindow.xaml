@@ -9,9 +9,13 @@
     <Grid>
         <TextBlock Name="colorpsychologyTextBlock" HorizontalAlignment="Left" Margin="22,21,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top" FontSize="16"/>
         <Image Source="/images/PXL.png" Margin="650,0,0,334" />
-        <Image Source="/images/Rood.png" Margin="-34,86,477,252" MouseEnter="Red_MouseEnter" MouseLeave="Red_MouseLeave"/>
-        <Image Source="/images/Geel.png" Margin="34,86,0,252" MouseEnter="Yellow_MouseEnter" MouseLeave="Yellow_MouseLeave"/>
-        <Image Source="/images/Groen.png" Margin="-102,217,408,121" MouseEnter="Green_MouseEnter" MouseLeave="Green_MouseLeave"/>
-        <Image Source="/images/Blauw.png" Margin="148,217,114,121" MouseEnter="Blue_MouseEnter" MouseLeave="Blue_MouseLeave"/>
+        <Image Source="/images/Rood.png" Margin="-34,86,477,252" MouseEnter="Red_MouseEnter" MouseLeave="Red_MouseLeave" MouseDown="Red_MouseDown"/>
+        <Image Source="/images/Geel.png" Margin="34,86,0,252" MouseEnter="Yellow_MouseEnter" MouseLeave="Yellow_MouseLeave" MouseDown="Yellow_MouseDown"/>
+        <Image Source="/images/Groen.png" Margin="-102,217,408,121" MouseEnter="Green_MouseEnter" MouseLeave="Green_MouseLeave" MouseDown="Green_MouseDown"/>
+        <Image Source="/images/Blauw.png" Margin="148,217,114,121" MouseEnter="Blue_MouseEnter" MouseLeave="Blue_MouseLeave" MouseDown="Blue_MouseDown"/>
+        <TextBlock Name="colorcodeTextBlock" HorizontalAlignment="Left" Margin="50,339,0,0" TextWrapping="Wrap" Text="Kleurcode:" VerticalAlignment="Top"/>
+        <TextBox Name="colorcodeTextBox" HorizontalAlignment="Left" Margin="144,338,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock Name="informationTextBlock" HorizontalAlignment="Left" Margin="50,373,0,0" TextWrapping="Wrap" Text="Informatie:" VerticalAlignment="Top"/>
+        <TextBox Name="informationTextBox" HorizontalAlignment="Left" Margin="145,373,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
     </Grid>
 </Window>
