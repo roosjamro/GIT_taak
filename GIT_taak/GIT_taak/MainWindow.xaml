@@ -8,7 +8,10 @@
         Title="MainWindow" Height="450" Width="800" Background="LightGray">
     <Grid>
         <TextBlock Name="colorpsychologyTextBlock" HorizontalAlignment="Left" Margin="22,21,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top" FontSize="16"/>
-<Image Source="/images/PXL.png" Margin="650,0,0,334" />
-
+        <Image Source="/images/PXL.png" Margin="650,0,0,334" />
+        <Image Source="/images/Rood.png" Margin="-34,86,477,252" MouseEnter="Red_MouseEnter" MouseLeave="Red_MouseLeave"/>
+        <Image Source="/images/Geel.png" Margin="34,86,0,252" MouseEnter="Yellow_MouseEnter" MouseLeave="Yellow_MouseLeave"/>
+        <Image Source="/images/Groen.png" Margin="-102,217,408,121" MouseEnter="Green_MouseEnter" MouseLeave="Green_MouseLeave"/>
+        <Image Source="/images/Blauw.png" Margin="148,217,114,121" MouseEnter="Blue_MouseEnter" MouseLeave="Blue_MouseLeave"/>
     </Grid>
 </Window>
