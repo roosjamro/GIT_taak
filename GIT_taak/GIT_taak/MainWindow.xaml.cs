@@ -34,6 +34,7 @@ namespace GIT_taak
         {
             Background = Brushes.LightGray;
             colorcodeTextBox.Text = " ";
+            informationTextBox.Text = " ";
         }
 
         private void Yellow_MouseEnter(object sender, MouseEventArgs e)
@@ -45,6 +46,7 @@ namespace GIT_taak
         {
             Background = Brushes.LightGray;
             colorcodeTextBox.Text = " ";
+            informationTextBox.Text = " ";
         }
 
         private void Green_MouseEnter(object sender, MouseEventArgs e)
@@ -56,6 +58,7 @@ namespace GIT_taak
         {
             Background = Brushes.LightGray;
             colorcodeTextBox.Text = " ";
+            informationTextBox.Text = " ";
         }
 
         private void Blue_MouseEnter(object sender, MouseEventArgs e)
@@ -67,26 +70,32 @@ namespace GIT_taak
         {
             Background = Brushes.LightGray;
             colorcodeTextBox.Text = " ";
+            informationTextBox.Text = " ";
         }
 
         private void Red_MouseDown(object sender, MouseButtonEventArgs e)
         {
             colorcodeTextBox.Text = "Rood: #FF0000";
+            informationTextBox.Text = "Rood is de kleur van warmte.";
         }
 
         private void Yellow_MouseDown(object sender, MouseButtonEventArgs e)
         {
             colorcodeTextBox.Text = "Geel: #FFFF00";
+            informationTextBox.Text = "Geel is de kleur van levenslust.";
         }
 
         private void Green_MouseDown(object sender, MouseButtonEventArgs e)
         {
             colorcodeTextBox.Text = "Groen: #008000";
+            informationTextBox.Text = "Groen is de kleur van genezing.";
         }
+    
 
         private void Blue_MouseDown(object sender, MouseButtonEventArgs e)
         {
             colorcodeTextBox.Text = "Blauw: #0000FF";
+            informationTextBox.Text = "Blauw is de kleur van intelligentie.";
         }
     }
 }
